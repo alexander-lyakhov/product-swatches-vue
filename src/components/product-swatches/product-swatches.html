@@ -1,0 +1,7 @@
+<div class="swatches">
+    <ul class="swatch-list">
+        <li class="swatch-list__item" v-for="color in colors" @click="selectColor(color.colorValue)">
+            <img :src="color.colorMarker" width="32" />
+        </li>
+    </ul>
+</div>
